@@ -6,7 +6,7 @@
     "permissions": ["activeTab", "scripting"],
     "host_permissions": ["<all_urls>"],
     "background": {
-      "service_worker": "background.js"
+      "service_worker": "BACK_GOUND.js"
     },
     "action": {
       "default_popup": "POP_MESSAGE.html"
@@ -14,7 +14,7 @@
     "content_scripts": [
       {
         "matches": ["<all_urls>"],
-        "js": ["content.js"]
+        "js": ["CONTENT_FILE.js"]
       }
     ]
   }
